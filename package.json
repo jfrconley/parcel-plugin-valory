@@ -1,0 +1,26 @@
+{
+  "name": "parcel-plugin-valory",
+  "version": "1.0.0",
+  "description": "Adds valory support",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "lint": "tslint --project ."
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "author": "John Conley",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.5.7",
+    "parcel-bundler": "^1.9.7",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "peerDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
+}
