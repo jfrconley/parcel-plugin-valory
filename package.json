@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-valory",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Adds valory support",
   "main": "dist/main.js",
   "scripts": {
@@ -10,7 +10,8 @@
   },
   "files": [
     "dist",
-    "package.json"
+    "package.json",
+    "README.md"
   ],
   "author": "John Conley",
   "license": "ISC",
