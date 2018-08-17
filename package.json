@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-valory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds valory support",
   "main": "dist/main.js",
   "scripts": {
@@ -22,5 +22,10 @@
   },
   "peerDependencies": {
     "parcel-bundler": "^1.9.7"
-  }
+  },
+  "repository": "https://github.com/jfrconley/parcel-plugin-valory",
+  "keywords": [
+    "valory",
+    "parcel"
+  ]
 }
